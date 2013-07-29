@@ -1,0 +1,130 @@
+@mixin sans {
+  font-family: 'Droid Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+@mixin serif {
+  font-family: 'Droid Serif', serif;
+  text-rendering: optimizeLegibility;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+$small: 14px;
+$smallish: 16px;
+$medium: 18px;
+$large: 22px;
+$reswidth: 50em;
+$sidebarwidth: 10em;
+$sidebarpad: 20px;
+
+$intersection: 1.65em;
+$overhang: 0.5em;
+
+body {
+  @include serif;
+  font-size: $medium;
+}
+h1 {
+  font-size: $medium;
+  font-weight: normal;
+}
+h2 {
+  font-size: $medium;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: black;
+  &:visited {
+    color: black;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* the resume container */
+#resume {
+  width: $reswidth;
+  margin: 0 auto;
+  padding-right: 10em;
+}
+.header {
+  @include serif;
+  font-size: $small;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin-left: $sidebarwidth;
+  padding-left: $sidebarpad;
+}
+.name {
+  font-size: $large + 2px;
+  padding-bottom: 5px;
+}
+
+.email {
+  width: 100%;
+}
+
+.address {
+  display: block;
+}
+
+.phone {
+  display: inline;
+  padding-left: 0.2em;
+}
+.section {
+  overflow: auto;
+  padding-bottom: $intersection - $overhang;
+}
+.section-name {
+  @include sans;
+  font-size: $small;
+  text-transform: uppercase;
+  width: $sidebarwidth;
+  height: 100%;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  display: inline;
+  padding-right: $sidebarpad/2;
+  text-align: right;
+  float: left;
+  clear: left;
+}
+
+.entries {
+  display: inline;
+  float: left;
+  width: $reswidth - $sidebarwidth;
+  line-height: 1.4em;
+  border-left: 1px solid #ddd;
+  padding-left: $sidebarpad/2;
+}
+.business {
+  font-size: $large;
+  float: left;
+}
+
+.position {
+  clear: both;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+.duration {
+  float: right;
+}
+.features {
+  list-style-type: circle;
+  clear: both;
+  font-size: $smallish;
+  padding-left: 1.25em;
+  padding-bottom: $overhang + 1em;
+  /* margin-bottom: 1em; */
+}
+
+.feature {
+  padding-left: 2em;
+}
+
