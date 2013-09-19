@@ -15,7 +15,7 @@ $smallish: 16px;
 $medium: 18px;
 $large: 22px;
 $reswidth: 50em;
-$sidebarwidth: 10em;
+$sidebarwidth: 7em;
 $sidebarpad: 20px;
 
 $intersection: 1.65em;
@@ -48,7 +48,6 @@ a {
 #resume {
   width: $reswidth;
   margin: 0 auto;
-  padding-right: 10em;
 }
 .header {
   @include serif;
