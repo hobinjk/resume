@@ -125,6 +125,7 @@ var resume = {
   "email": "hobinjk@mit.edu",
   "address": "282 Massachusetts Ave. Cambridge, MA 02139",
   "phone": "(623) 297&ndash;8310",
+  "username": "hobinjk",
   "sections": [
     education,
     experience,

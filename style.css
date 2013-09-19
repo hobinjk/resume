@@ -51,6 +51,9 @@ a {
   display: inline;
   padding-left: 0.2em; }
 
+.gh-link {
+  display: block; }
+
 .section {
   overflow: auto;
   padding-bottom: 1.15em; }
