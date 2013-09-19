@@ -33,7 +33,7 @@ var experience = {
   },
   {
     "business": "iNetDispatch, LLC.",
-    "moreLink": "http://www.inetdispatch.com/"
+    "moreLink": "http://www.inetdispatch.com/",
     "position": "Intern",
     "startYear": 2011,
     "endYear": 2012,
