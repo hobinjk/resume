@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Droid Serif', serif;
+  text-rendering: optimizeLegibility;
+  font-size: 18px; }
+
+h1 {
+  font-size: 18px;
+  font-weight: normal; }
+
+h2 {
+  font-size: 18px;
+  font-weight: normal; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:visited {
+    color: black; }
+  a:hover {
+    text-decoration: underline; }
+
+/* the resume container */
+#resume {
+  width: 50em;
+  margin: 0 auto; }
+
+.header {
+  font-family: 'Droid Serif', serif;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin-left: 7em;
+  padding-left: 20px; }
+
+.name {
+  font-size: 24px;
+  padding-bottom: 5px; }
+
+.email {
+  width: 100%; }
+
+.address {
+  display: block; }
+
+.phone {
+  display: inline;
+  padding-left: 0.2em; }
+
+.section {
+  overflow: auto;
+  padding-bottom: 1.15em; }
+
+.section-name {
+  font-family: 'Droid Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 7em;
+  height: 100%;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  display: inline;
+  padding-right: 10px;
+  text-align: right;
+  float: left;
+  clear: left; }
+
+.entries {
+  display: inline;
+  float: left;
+  width: 43em;
+  line-height: 1.4em;
+  border-left: 1px solid #ddd;
+  padding-left: 10px; }
+
+.business {
+  font-size: 22px;
+  float: left; }
+
+.position {
+  clear: both;
+  font-style: italic;
+  padding-bottom: 5px; }
+
+.duration {
+  float: right; }
+
+.features {
+  list-style-type: circle;
+  clear: both;
+  font-size: 16px;
+  padding-left: 1.25em;
+  padding-bottom: 1.5em;
+  /* margin-bottom: 1em; */ }
+
+.feature {
+  padding-left: 2em; }
+
+.importance0 {
+  display: none; }
+
+.importance1 {
+  display: none; }
+
+.footer {
+  font-size: 10px;
+  color: #555;
+  text-align: center; }
+
+#mini-link {
+  color: #555; }
