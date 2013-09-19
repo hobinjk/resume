@@ -30,22 +30,22 @@
     </script>
 
     <script id="genericEntryTemplate" type="text/template">
-      <h2 class="duration"><%= duration %></h2>
+      <h2 class="duration"><%= formatDuration(startYear, endYear) %></h2>
       <h1 class="business"><%= business %></h1>
       <h2 class="position"><%= position %></h2>
       <ul class="features">
       <% _.each(features, function(feature) { %>
-        <li class="feature"><%= feature %></li>
+        <li class="feature"><%= formatFeature(feature) %></li>
       <% }) %>
       </ul>
     </script>
 
     <script id="projectsEntryTemplate" type="text/template">
-      <h2 class="duration"><%= duration %></h1>
+      <h2 class="duration"><%= formatDuration(startYear, endYear) %></h1>
       <h1 class="business"><%= name %></h1>
       <ul class="features">
       <% _.each(features, function(feature) { %>
-        <li class="feature"><%= feature %></li>
+        <li class="feature"><%= formatFeature(feature) %></li>
       <% }) %>
       </ul>
     </script>

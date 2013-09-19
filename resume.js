@@ -3,10 +3,12 @@ var education = {
   "entries": [{
     "business": "Massachusetts Institute of Technology",
     "position": "Sophomore",
-    "duration": "2012&ndash;",
+    "startYear": 2012,
+    "endYear": null,
     "features": [
       "Candidate for Bachelor of Science in Computer Science"
-    ]
+    ],
+    "importance": 10
   }],
   "entryTemplate": genericEntryTemplate,
   "sectionTemplate": genericSectionTemplate
@@ -18,66 +20,75 @@ var experience = {
   {
     "business": "MIT Media Lab",
     "position": "Fluid Media Group Researcher",
-    "duration": "2012&ndash;",
+    "startYear": 2012,
+    "endYear": null,
     "features": [
       "Creating systems for controlling arbitrary household devices",
       "Designing multimodal interactions between connected devices",
       "Implementing low-latency synchronous network connections using AllJoyn\
        and OpenSoundControl"
-    ]
+    ],
+    "importance": 10
   },
   {
     "business": "iNetDispatch, LLC.",
     "position": "Intern",
-    "duration": "2011&ndash;2012",
+    "startYear": 2011,
+    "endYear": 2012,
     "features": [
       "Fixed various bugs in iNetDispatch&CloseCurlyQuote;s\
       Computer-Aided Dispatch software",
       "Developed a chat system for dispatchers and units",
       "Implemented drag and drop for user interactions",
       "Created a playback feature to show the previous locations of units",
-    ]
+    ],
+    "importance": 8
   },
   {
     "business": "Dryden Flight Research Center",
     "position": "Data Acquisition Engineer Intern",
-    "duration": "2011",
+    "startYear": 2011,
+    "endYear": 2011,
     "features": [
       "Wrote utilities for the capture and analysis of data with an emphasis\
        on real-time visual feedback during flight tests",
       "Coordinated flight test with group members, designing procedures to\
        guarantee safety and repeatability",
       "Shared findings and practices in a technical presentation"
-    ]
+    ],
+    "importance": 6
   },
   {
     "business": "Infinite Heart",
     "position": "Interaction Designer",
-    "duration": "2011",
+    "startYear": 2011,
+    "endYear": 2011,
     "features": [
       "Designed a series of 3D interactive applets for use on the Infinite\
        Heart website and in Infinite heart seminars",
       "Synthesized several novel visualization and interaction methods"
-    ]
+    ],
+    "importance": 1
   },
   {
     "business": "Phoenix Country Day School",
     "position": "SMALLab Teaching Assistant",
-    "duration": "2011&ndash;2012",
+    "startYear": 2011,
+    "endYear": 2012,
     "features": [
       "Planned and taught a series of introductory programming lectures.",
-      "Developed networking libraries enabling students to easily create\
-        meaningful work",
+      "Advised and assisted students in the creation of computer-generated\
+       interactive art and educational games.",
       "Created a SMALLab-tailored gesture recognition engine to facilitate\
        students&CloseCurlyQuote; use of non-standard interaction designs."
-    ]
+    ],
+    "importance": 3
   }],
   "entryTemplate": genericEntryTemplate,
   "sectionTemplate": genericSectionTemplate
 };
 
 function genBugLink(bug) {
-  return '<a href="https://bugzilla.mozilla.org/show_bug.cgi?id='+bug+'">#'+bug+'</a>';
 }
 
 var projects = {
@@ -85,15 +96,17 @@ var projects = {
   "entries": [
   {
     "name": "Firefox Development",
-    "duration": "2011&ndash;",
+    "startYear": 2011,
+    "endYear": null,
     "features": [
-      "Fixed bugs "+genBugLink(659576)+" and "+genBugLink(570760),
-      "Currently working on bug "+genBugLink(492557),
+      "Fixed bugs #659576 and #570760",
+      "Currently working on bug #492557",
     ]
   },
   {
     "name": "Random Hall Laundry Server",
-    "duration": "2013&ndash;",
+    "startYear": 2013,
+    "endYear": null,
     "features": [
       "Developed a joint web application and hardware installation",
       "Hardware uses off-the-shelf components to determine the power-on state\
@@ -119,4 +132,30 @@ var resume = {
   ]
 };
 
+function formatDuration(startYear, endYear) {
+  if(startYear === endYear)
+    return ""+startYear;
+  var duration = startYear+"&ndash;";
+  if(endYear)
+    duration += endYear;
+  return duration;
+}
 
+function formatFeature(feature) {
+  // linkify bugzilla bugs
+  return feature.replace(
+    /#(\d{5,7})/g,
+    '<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=$1">#$1</a>'
+  );
+}
+
+function addHelpers(objects) {
+  for(var i = 0; i < objects.length; i++) {
+    objects[i].formatDuration = formatDuration;
+    objects[i].formatFeature = formatFeature;
+  }
+}
+
+addHelpers(education.entries);
+addHelpers(experience.entries);
+addHelpers(projects.entries);
