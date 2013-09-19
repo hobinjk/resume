@@ -18,13 +18,18 @@
             <%= section.sectionTemplate(section) %>
           </div>
         <% }) %>
+        <div class="footer">
+          Droid Sans and Droid Serif used under the <a href="https://www.apache.org/licenses/LICENSE-2.0.html" id="mini-link">Apache License</a>.
+        </div>
       </div>
     </script>
     <script id="genericSectionTemplate" type="text/template">
       <h2 class="section-name"><%= name %></h2>
       <div class="entries">
       <% _.each(entries, function(entry) { %>
-        <%= entryTemplate(entry) %>
+        <div class="entry importance<%= entry.importance %>">
+          <%= entryTemplate(entry) %>
+        </div>
       <% }) %>
       </div>
     </script>
