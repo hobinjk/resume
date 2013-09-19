@@ -11,8 +11,9 @@
           <h2 class="name"><%= name %></h2>
           <a class="address" href="https://maps.google.com/?q=loc:+<%= address %>"><%= address %></a>
           <a class="email" href="mailto:<%= email %>"><%= email %></a>
-          <p class="phone"><%= phone %></p>
+          <p class="phone"><%= phone %></p><br/>
           <a class="gh-link" href="http://github.com/<%= username %>">github.com/<%= username %></a>
+          <a class="resume-link" href="http://<%= username %>.github.io/resume"><%= username %>.github.io/resume</a>
         </div>
         <% _.each(sections, function(section) { %>
           <div class="section">

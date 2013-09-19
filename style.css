@@ -49,10 +49,10 @@ a {
 
 .phone {
   display: inline;
-  padding-left: 0.2em; }
+  padding-left: 0.4em; }
 
-.gh-link {
-  display: block; }
+.resume-link {
+  padding-left: 0.4em; }
 
 .section {
   overflow: auto;
