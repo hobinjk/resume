@@ -25,7 +25,7 @@ var experience = {
     "endYear": null,
     "features": [
       "Creating systems for controlling arbitrary household devices",
-      "Designing multimodal interactions between connected devices",
+      "Designing meaningful multimodal interactions between connected objects",
       "Implementing low-latency network connections using AllJoyn and\
         OpenSoundControl"
     ],
@@ -40,8 +40,8 @@ var experience = {
     "features": [
       "Fixed various bugs in iNetDispatch&CloseCurlyQuote;s\
       Computer-Aided Dispatch software",
-      "Developed a chat system for dispatchers and units",
-      "Implemented drag and drop for user interactions",
+      "Developed a real-time chat system for dispatchers and units in the field",
+      "Implemented global drag and drop for user interactions",
       "Created a playback feature to show the previous locations of units",
     ],
     "importance": 8
@@ -79,11 +79,11 @@ var experience = {
     "startYear": 2011,
     "endYear": 2012,
     "features": [
-      "Planned and taught a series of introductory programming lectures.",
-      "Advised and assisted students in the creation of computer-generated\
-       interactive art and educational games.",
+      "Planned and taught a series of introductory programming lectures",
+      "Advised and assisted students in the creation of digital\
+       interactive art and educational games",
       "Created a SMALLab-tailored gesture recognition engine to facilitate\
-       students&CloseCurlyQuote; use of non-standard interaction designs."
+       students&CloseCurlyQuote; use of non-standard interaction designs"
     ],
     "importance": 3
   }],
@@ -99,8 +99,8 @@ var projects = {
     "startYear": 2011,
     "endYear": null,
     "features": [
-      "Fixed bugs #659576 and #570760.",
-      "Currently creating a global keyboard shortcuts popup (bug #492557).",
+      "Fixed bugs #659576 and #570760",
+      "Currently creating a global keyboard shortcuts popup (bug #492557)",
     ]
   },
   {
@@ -111,11 +111,22 @@ var projects = {
     "features": [
       "Developed a joint web application and hardware installation",
       "Hardware uses off-the-shelf components to determine the power-on state\
-       of any laundry machine",
+       of any machine",
       "Web application interfaces with the hardware to display machine usage\
        in real-time"
     ]
-  }],
+  },
+  {
+    "name": "Student Groups",
+    "startYear": 2013,
+    "endYear": null,
+    "features": [
+      "President of the Laboratory for Chocolate Science",
+      "Secretary of the MIT Science Fiction Society",
+      "Computer Chair, Laundry King, and Webmaster for Random Hall"
+    ]
+  }
+  ],
   "entryTemplate": projectsEntryTemplate,
   "sectionTemplate": genericSectionTemplate
 };
