@@ -2,7 +2,7 @@ var education = {
   "name": "Education",
   "entries": [{
     "business": "Massachusetts Institute of Technology",
-    "position": "Sophomore",
+    "position": "Junior",
     "startYear": 2012,
     "endYear": null,
     "features": [
@@ -32,19 +32,30 @@ var experience = {
     "importance": 10
   },
   {
+    "business": "Mozilla",
+    "moreLink": "https://www.mozilla.org/",
+    "position": "Intern",
+    "startYear": 2014,
+    "endYear": 2014,
+    "features": [
+      "Worked on the Firefox OS Systems Front End team",
+      "Produced several major features and improvements integrated with gargantuan codebase",
+      "Ensured full test coverage and production-grade reliability of work"
+    ],
+    "importance": 9
+  },
+  {
     "business": "iNetDispatch, LLC.",
     "moreLink": "http://www.inetdispatch.com/",
     "position": "Intern",
     "startYear": 2011,
     "endYear": 2012,
     "features": [
-      "Fixed various bugs in iNetDispatch&CloseCurlyQuote;s\
-      Computer-Aided Dispatch software",
       "Developed a real-time chat system for dispatchers and units in the field",
       "Implemented global drag and drop for user interactions",
       "Created a playback feature to show the previous locations of units",
     ],
-    "importance": 8
+    "importance": 3
   },
   {
     "business": "Dryden Flight Research Center",
@@ -52,9 +63,9 @@ var experience = {
     "startYear": 2011,
     "endYear": 2011,
     "features": [
-      "Wrote utilities for the capture and analysis of data with an emphasis\
-       on real-time visual feedback during flight tests",
-      "Coordinated flight test with group members, designing procedures to\
+      "Wrote utilities for the analysis of flight data with an\
+       emphasis on real-time visualization",
+      "Coordinated flight test with group, designing procedures to\
        guarantee safety and repeatability",
       "Shared findings and practices in a technical presentation"
     ],
@@ -85,7 +96,7 @@ var experience = {
       "Created a SMALLab-tailored gesture recognition engine to facilitate\
        students&CloseCurlyQuote; use of non-standard interaction designs"
     ],
-    "importance": 3
+    "importance": 1
   }],
   "entryTemplate": genericEntryTemplate,
   "sectionTemplate": genericSectionTemplate
@@ -101,7 +112,8 @@ var projects = {
     "features": [
       "Fixed bugs #659576 and #570760",
       "Currently creating a global keyboard shortcuts popup (bug #492557)",
-    ]
+    ],
+    "importance": 1
   },
   {
     "name": "Random Hall Laundry Server",
@@ -121,9 +133,7 @@ var projects = {
     "startYear": 2013,
     "endYear": null,
     "features": [
-      "President of the Laboratory for Chocolate Science",
-      "Secretary of the MIT Science Fiction Society",
-      "Computer Chair, Laundry King, and Webmaster for Random Hall"
+      "President of the Laboratory for Chocolate Science"
     ]
   }
   ],
