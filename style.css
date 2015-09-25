@@ -104,10 +104,9 @@ a {
 .feature {
   padding-left: 2em; }
 
-.importance0 {
-  display: none; }
-
-.importance1 {
+.importance0,
+.importance1,
+.importance2 {
   display: none; }
 
 .footer {

@@ -26,8 +26,9 @@ var experience = {
     "features": [
       "Creating systems for controlling arbitrary household devices",
       "Designing meaningful multimodal interactions between connected objects",
-      "Implementing low-latency network connections using AllJoyn and\
-        OpenSoundControl"
+      //"Implementing low-latency network connections using AllJoyn and\
+      //  OpenSoundControl"
+      "Optimizing low-latency data transfer over HTTP"
     ],
     "importance": 10
   },
@@ -77,8 +78,8 @@ var experience = {
     "startYear": 2011,
     "endYear": 2011,
     "features": [
-      "Designed a series of 3D interactive applets for use on the Infinite\
-       Heart website and in Infinite heart seminars",
+      "Designed a series of 3D interactive applets for use on the Infinite "+
+       "Heart website and in Infinite heart seminars",
       "Synthesized several novel visualization and interaction methods"
     ],
     "importance": 1
@@ -91,10 +92,10 @@ var experience = {
     "endYear": 2012,
     "features": [
       "Planned and taught a series of introductory programming lectures",
-      "Advised and assisted students in the creation of digital\
-       interactive art and educational games",
-      "Created a SMALLab-tailored gesture recognition engine to facilitate\
-       students&CloseCurlyQuote; use of non-standard interaction designs"
+      "Advised and assisted students in the creation of digital "+
+       "interactive art and educational games",
+      "Created a SMALLab-tailored gesture recognition engine to facilitate "+
+       "students&CloseCurlyQuote; use of non-standard interaction designs"
     ],
     "importance": 1
   }],
@@ -105,6 +106,24 @@ var experience = {
 var projects = {
   "name": "Projects",
   "entries": [
+  //{
+  //  "name": "Human + Computer",
+  //  "startYear": 2014,
+  //  "endYear": 2014,
+  //  "features": [
+  //    "Designed and implemented an interactive art project exploring transhumanism",
+  //  ]
+  //},
+  {
+    "name": "Tansley Effect",
+    "startYear": 2014,
+    "endYear": null,
+    "features": [
+      "Cofounded a startup to optimize data sharing within academic research groups",
+      "Interviewed potential customers to refine and improve business strategy and design",
+      "Prepared a website on a compressed timescale for a demo day presentation"
+    ]
+  },
   {
     "name": "Firefox Development",
     "startYear": 2011,
@@ -122,10 +141,8 @@ var projects = {
     "endYear": null,
     "features": [
       "Developed a joint web application and hardware installation",
-      "Hardware uses off-the-shelf components to determine the power-on state\
-       of any machine",
-      "Web application interfaces with the hardware to display machine usage\
-       in real-time"
+      "Hardware uses off-the-shelf components to determine the power-on state of any machine",
+      "Web application interfaces with the hardware to display machine usage in real-time"
     ]
   },
   {
@@ -134,6 +151,8 @@ var projects = {
     "endYear": null,
     "features": [
       "President of the Laboratory for Chocolate Science"
+      // "Secretary of the MIT Science Fiction Society"
+      // "Computer Chair, Laundry King, and Webmaster for Random Hall"
     ]
   }
   ],
