@@ -121,6 +121,16 @@ var projects = {
   "name": "Projects",
   "entries": [
   {
+    "name": "Cabbage Legs",
+    "startYear": 2015,
+    "endYear": 2015,
+    "features": [
+      "Programmed a genetic algorithm that optimizes simulated quadripedal robots",
+      "Play with it at <a href=\"http://hobinjk.github.io/cabbage-legs/\">hobinjk.github.io/cabbage-legs/</a>"+
+      " and <a href=\"http://hobinjk.github.io/cabbage-legs/speed.html\">hobinjk.github.io/cabbage-legs/speed.html</a>"
+    ]
+  },
+  {
     "name": "Human + Computer",
     "startYear": 2014,
     "endYear": 2014,
@@ -128,16 +138,16 @@ var projects = {
       "Designed and implemented an interactive art project exploring transhumanism",
     ]
   },
-  {
-    "name": "Tansley Effect",
-    "startYear": 2014,
-    "endYear": null,
-    "features": [
-      "Cofounded a startup to optimize data sharing within academic research groups",
-      "Interviewed potential customers to refine and improve business strategy and design",
-      "Prepared a website on a compressed timescale for a demo day presentation"
-    ]
-  },
+  // {
+  //   "name": "Tansley Effect",
+  //   "startYear": 2014,
+  //   "endYear": null,
+  //   "features": [
+  //     "Cofounded a startup to optimize data sharing within academic research groups",
+  //     "Interviewed potential customers to refine and improve business strategy and design",
+  //     "Prepared a website on a compressed timescale for a demo day presentation"
+  //   ]
+  // },
   {
     "name": "Firefox Development",
     "startYear": 2011,
