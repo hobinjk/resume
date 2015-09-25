@@ -2,11 +2,12 @@ var education = {
   "name": "Education",
   "entries": [{
     "business": "Massachusetts Institute of Technology",
-    "position": "Junior",
+    "position": "Senior",
     "startYear": 2012,
     "endYear": null,
     "features": [
-      "Candidate for Bachelor of Science in Computer Science"
+      "Candidate for Bachelor of Science in Computer Science",
+      "Accepted into EECS Masters of Engineering Program"
     ],
     "importance": 10
   }],
@@ -18,17 +19,14 @@ var experience = {
   "name": "Experience",
   "entries": [
   {
-    "business": "MIT Media Lab",
-    "moreLink": "http://fluid.media.mit.edu/node/227",
-    "position": "Fluid Media Group Researcher",
-    "startYear": 2012,
+    "business": "CSAIL Distributed Robotics Laboratory",
+    "moreLink": "http://groups.csail.mit.edu/drl/wiki/index.php?title=Main_Page",
+    "position": "Undergraduate Researcher",
+    "startYear": 2015,
     "endYear": null,
     "features": [
-      "Creating systems for controlling arbitrary household devices",
-      "Designing meaningful multimodal interactions between connected objects",
-      //"Implementing low-latency network connections using AllJoyn and\
-      //  OpenSoundControl"
-      "Optimizing low-latency data transfer over HTTP"
+      "Devising an online game for crowdsourcing the design of robots",
+      "Collaborating to integrate with DRL's state-of-the-art simulation and fabrication technology"
     ],
     "importance": 10
   },
@@ -37,13 +35,29 @@ var experience = {
     "moreLink": "https://www.mozilla.org/",
     "position": "Intern",
     "startYear": 2014,
+    "endYear": 2015,
+    "features": [
+      "Worked for two summers on the Firefox OS Systems Front End team",
+      "Produced several major features and improvements integrated with gargantuan codebase",
+      "Ensured full test coverage and production-grade reliability of work",
+      "Spearheaded research project to uncover a significant market opportunity for Firefox OS"
+    ],
+    "importance": 10
+  },
+  {
+    "business": "MIT Media Lab",
+    "moreLink": "http://fluid.media.mit.edu/node/227",
+    "position": "Fluid Media Group Researcher",
+    "startYear": 2012,
     "endYear": 2014,
     "features": [
-      "Worked on the Firefox OS Systems Front End team",
-      "Produced several major features and improvements integrated with gargantuan codebase",
-      "Ensured full test coverage and production-grade reliability of work"
+      "Created systems for controlling arbitrary household devices",
+      "Designed meaningful multimodal interactions between connected objects",
+      //"Implementing low-latency network connections using AllJoyn and\
+      //  OpenSoundControl"
+      "Optimized low-latency data transfer over HTTP"
     ],
-    "importance": 9
+    "importance": 8
   },
   {
     "business": "iNetDispatch, LLC.",
@@ -106,14 +120,14 @@ var experience = {
 var projects = {
   "name": "Projects",
   "entries": [
-  //{
-  //  "name": "Human + Computer",
-  //  "startYear": 2014,
-  //  "endYear": 2014,
-  //  "features": [
-  //    "Designed and implemented an interactive art project exploring transhumanism",
-  //  ]
-  //},
+  {
+    "name": "Human + Computer",
+    "startYear": 2014,
+    "endYear": 2014,
+    "features": [
+      "Designed and implemented an interactive art project exploring transhumanism",
+    ]
+  },
   {
     "name": "Tansley Effect",
     "startYear": 2014,
@@ -150,7 +164,8 @@ var projects = {
     "startYear": 2013,
     "endYear": null,
     "features": [
-      "President of the Laboratory for Chocolate Science"
+      "President of the Laboratory for Chocolate Science",
+      "Judiciary Committee Chair of Random Hall"
       // "Secretary of the MIT Science Fiction Society"
       // "Computer Chair, Laundry King, and Webmaster for Random Hall"
     ]
@@ -163,7 +178,7 @@ var projects = {
 var resume = {
   "name": "James Hobin",
   "email": "hobinjk@mit.edu",
-  "address": "282 Massachusetts Ave. Cambridge, MA 02139",
+  "address": "MIT, Cambridge, MA 02139",
   "phone": "(623) 297&ndash;8310",
   "username": "hobinjk",
   "sections": [
