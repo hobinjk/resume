@@ -37,7 +37,12 @@
     </script>
 
     <script id="genericEntryTemplate" type="text/template">
-      <h2 class="duration"><%= formatDuration(startYear, endYear) %></h2>
+      <% if (typeof(startYear) !== "undefined") { %>
+        <h2 class="duration"><%= formatDuration(startYear, endYear) %></h1>
+      <% } else if (typeof(years) !== "undefined") { %>
+        <h2 class="duration"><%= years.join(', ') %></h1>
+      <% } %>
+
       <% if(typeof(moreLink) != "undefined") { %>
         <h1 class="business"><a href="<%= moreLink %>"><%= business %></a></h1>
       <% } else { %>
@@ -52,7 +57,12 @@
     </script>
 
     <script id="projectsEntryTemplate" type="text/template">
-      <h2 class="duration"><%= formatDuration(startYear, endYear) %></h1>
+      <% if (typeof(startYear) !== "undefined") { %>
+        <h2 class="duration"><%= formatDuration(startYear, endYear) %></h1>
+      <% } else if (typeof(years) !== "undefined") { %>
+        <h2 class="duration"><%= years.join(', ') %></h1>
+      <% } %>
+
       <% if(typeof(moreLink) != "undefined") { %>
         <h1 class="business"><a href="<%= moreLink %>"><%= name %></a></h1>
       <% } else { %>

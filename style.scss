@@ -87,7 +87,8 @@ a {
 }
 .section-name {
   @include sans;
-  font-size: $small;
+  font-size: $small - 1px;
+  padding-top: 1px;
   text-transform: uppercase;
   width: $sidebarwidth;
   height: 100%;
@@ -136,7 +137,11 @@ a {
 
 .importance0,
 .importance1,
-.importance2 {
+.importance2,
+.importance3,
+.importance4,
+.importance5,
+.importance6 {
   display: none;
 }
 

@@ -2,12 +2,12 @@ var education = {
   "name": "Education",
   "entries": [{
     "business": "Massachusetts Institute of Technology",
-    "position": "Senior",
-    "startYear": 2012,
+    "position": "Masters of Engineering Student",
+    "startYear": 2016,
     "endYear": null,
     "features": [
-      "Candidate for Bachelor of Science in Computer Science",
-      "Accepted into EECS Masters of Engineering Program"
+      "EECS M.Eng student working in the Fluid Interfaces group of the Media Lab",
+      "Received Bachelor of Science in Computer Science in 2016"
     ],
     "importance": 10
   }],
@@ -19,40 +19,49 @@ var experience = {
   "name": "Experience",
   "entries": [
   {
+    "business": "MIT Media Lab",
+    "moreLink": "http://fluid.media.mit.edu/node/227",
+    "position": "Fluid Interfaces Graduate Researcher",
+    "startYear": 2016,
+    "endYear": null,
+    "features": [
+      "Designing adaptable, modular interfaces for the Reality Editor, a novel AR IoT platform",
+      "Assisting the maintenance and refactoring of this platform's growing codebase"
+    ],
+    "importance": 10
+  },
+  {
     "business": "CSAIL Distributed Robotics Laboratory",
     "moreLink": "http://groups.csail.mit.edu/drl/wiki/index.php?title=Main_Page",
     "position": "Undergraduate Researcher",
     "startYear": 2015,
-    "endYear": null,
+    "endYear": 2016,
     "features": [
-      "Devising an online game for crowdsourcing the design of robots",
-      "Collaborating to integrate with DRL's state-of-the-art simulation and fabrication technology"
+      "Built an online game for crowdsourcing the design of robots"
     ],
-    "importance": 10
+    "importance": 9
   },
   {
     "business": "Mozilla",
     "moreLink": "https://www.mozilla.org/",
-    "position": "Intern",
-    "startYear": 2014,
-    "endYear": 2015,
+    "position": "Firefox OS Systems Front End Team Intern",
+    "years": [2014, 2015],
     "features": [
-      "Worked for two summers on the Firefox OS Systems Front End team",
-      "Produced several major features and improvements integrated with gargantuan codebase",
+      "Produced several major features and improvements over two summer internships",
       "Ensured full test coverage and production-grade reliability of work",
       "Spearheaded research project to uncover a significant market opportunity for Firefox OS"
     ],
-    "importance": 10
+    "importance": 9
   },
   {
     "business": "MIT Media Lab",
     "moreLink": "http://fluid.media.mit.edu/node/227",
-    "position": "Fluid Media Group Researcher",
+    "position": "Fluid Interfaces Undergraduate Researcher",
     "startYear": 2012,
     "endYear": 2014,
     "features": [
       "Created systems for controlling arbitrary household devices",
-      "Designed meaningful multimodal interactions between connected objects",
+      "Specified meaningful multimodal interactions between connected objects",
       //"Implementing low-latency network connections using AllJoyn and\
       //  OpenSoundControl"
       "Optimized low-latency data transfer over HTTP"
@@ -121,61 +130,104 @@ var projects = {
   "name": "Projects",
   "entries": [
   {
+    "name": "New XKit",
+    "moreLink": "https://github.com/new-xkit/XKit/",
+    "startYear": 2015,
+    "endYear": null,
+    "features": [
+      "Forked and revitalized a popular open source project for improving Tumblr",
+      "Triaging bugs and supporting users while adapting to Tumblr's ever-changing website"
+    ]
+  },
+  {
     "name": "Cabbage Legs",
     "startYear": 2015,
     "endYear": 2015,
+    "moreLink": "https://hobinjk.github.io/cabbage-legs/",
+    "importance": 8,
     "features": [
-      "Programmed a genetic algorithm that optimizes simulated quadripedal robots",
-      "Play with it at <a href=\"http://hobinjk.github.io/cabbage-legs/\">hobinjk.github.io/cabbage-legs/</a>"+
-      " and <a href=\"http://hobinjk.github.io/cabbage-legs/speed.html\">hobinjk.github.io/cabbage-legs/speed.html</a>"
+      "Programmed a genetic algorithm that optimizes simulated quadripedal robots"
+    ]
+  },
+  {
+    "name": "Aqueduct",
+    "startYear": 2015,
+    "endYear": 2015,
+    "moreLink": "https://hobinjk.github.io/aqueduct/",
+    "importance": 6,
+    "features": [
+      "Implemented simple static analysis of JavaScript for type assignment"
+    ]
+  },
+  {
+    "name": "Nineteen Below",
+    "startYear": 2015,
+    "endYear": 2016,
+    "moreLink": "https://hobinjk.github.io/nineteen-below/",
+    "importance": 3,
+    "features": [
+      "Created a simple game based on procedurally generated ice block puzzles"
+    ]
+  },
+  {
+    "name": "Haven",
+    "startYear": 2013,
+    "endYear": 2014,
+    "moreLink": "https://github.com/hobinjk/haven/",
+    "importance": 6,
+    "features": [
+      "Designed a secure filesharing site based on client-side encryption"
     ]
   },
   {
     "name": "Human + Computer",
     "startYear": 2014,
     "endYear": 2014,
+    "importance": 4,
     "features": [
-      "Designed and implemented an interactive art project exploring transhumanism",
+      "Produced an interactive art project exploring transhumanism",
     ]
   },
-  // {
-  //   "name": "Tansley Effect",
-  //   "startYear": 2014,
-  //   "endYear": null,
-  //   "features": [
-  //     "Cofounded a startup to optimize data sharing within academic research groups",
-  //     "Interviewed potential customers to refine and improve business strategy and design",
-  //     "Prepared a website on a compressed timescale for a demo day presentation"
-  //   ]
-  // },
+  {
+    "name": "Tansley Effect",
+    "startYear": 2014,
+    "endYear": null,
+    "features": [
+      "Cofounded a startup to optimize data sharing within academic research groups",
+      "Interviewed potential customers to refine and improve business strategy and design",
+      "Prepared a website on a compressed timescale for a demo day presentation"
+    ],
+    "importance": 6
+  },
   {
     "name": "Firefox Development",
     "startYear": 2011,
     "endYear": null,
     "features": [
       "Fixed bugs #659576 and #570760",
-      "Currently creating a global keyboard shortcuts popup (bug #492557)",
+      "Began creation of a global keyboard shortcuts popup (bug #492557)",
     ],
-    "importance": 1
+    "importance": 2
   },
   {
     "name": "Random Hall Laundry Server",
     "moreLink": "http://laundry.mit.edu/",
     "startYear": 2013,
-    "endYear": null,
+    "endYear": 2016,
+    "importance": 6,
     "features": [
-      "Developed a joint web application and hardware installation",
-      "Hardware uses off-the-shelf components to determine the power-on state of any machine",
-      "Web application interfaces with the hardware to display machine usage in real-time"
+      "Collaborated with other students to build a joint web application and hardware installation",
+      // "Hardware uses off-the-shelf components to determine the power-on state of any machine",
+      // "Web application interfaces with the hardware to display machine usage in real-time"
     ]
   },
   {
     "name": "Student Groups",
-    "startYear": 2013,
-    "endYear": null,
+    "startYear": 2012,
+    "endYear": 2016,
     "features": [
-      "President of the Laboratory for Chocolate Science",
-      "Judiciary Committee Chair of Random Hall"
+      "President of the Laboratory for Chocolate Science (2012&ndash;2016)",
+      "Random Hall Judiciary Committee Member (2013&ndash;2014) and Chair (2014&ndash;2015)",
       // "Secretary of the MIT Science Fiction Society"
       // "Computer Chair, Laundry King, and Webmaster for Random Hall"
     ]

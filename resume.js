@@ -1,10 +1,15 @@
-function formatDuration(startYear, endYear) {
-  if(startYear === endYear)
-    return ""+startYear;
-  var duration = startYear+"&ndash;";
-  if(endYear)
-    duration += endYear;
-  return duration;
+function formatDuration(startYear, endYear, years) {
+  if (startYear) {
+    if (startYear === endYear) {
+      return "" + startYear;
+    }
+    var duration = startYear + "&ndash;";
+    if (endYear) {
+      duration += endYear;
+    }
+    return duration;
+  }
+  return years.join(', ');
 }
 
 function formatFeature(feature) {
