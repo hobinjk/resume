@@ -9,6 +9,7 @@ var education = {
       "EECS M.Eng student working in the Fluid Interfaces group of the Media Lab",
       "Received Bachelor of Science in Computer Science in 2016"
     ],
+    "keywords": [],
     "importance": 10
   }],
   "entryTemplate": genericEntryTemplate,
@@ -28,6 +29,7 @@ var experience = {
       "Designing adaptable, modular interfaces for the Reality Editor, a novel AR IoT platform",
       "Assisting the maintenance and refactoring of this platform's growing codebase"
     ],
+    "keywords": ["C++", "JavaScript", "Node"],
     "importance": 10
   },
   {
@@ -39,6 +41,7 @@ var experience = {
     "features": [
       "Built an online game for crowdsourcing the design of robots"
     ],
+    "keywords": ["JavaScript", "React", "Node"],
     "importance": 9
   },
   {
@@ -51,6 +54,7 @@ var experience = {
       "Ensured full test coverage and production-grade reliability of work",
       "Spearheaded research project to uncover a significant market opportunity for Firefox OS"
     ],
+    "keywords": ["C++", "JavaScript", "Android Internals"],
     "importance": 9
   },
   {
@@ -60,12 +64,13 @@ var experience = {
     "startYear": 2012,
     "endYear": 2014,
     "features": [
-      "Created systems for controlling arbitrary household devices",
       "Specified meaningful multimodal interactions between connected objects",
       //"Implementing low-latency network connections using AllJoyn and\
       //  OpenSoundControl"
-      "Optimized low-latency data transfer over HTTP"
+      "Optimized low-latency data transfer over UDP",
+      "Second author on UBICOMP 2013 publication \"Reality Editor: Programming Smarter Objects\""
     ],
+    "keywords": ["C++", "iOS", "Augmented Reality", "Internet of Things"],
     "importance": 8
   },
   {
@@ -79,6 +84,7 @@ var experience = {
       "Implemented global drag and drop for user interactions",
       "Created a playback feature to show the previous locations of units",
     ],
+    "keywords": ["ActionScript"],
     "importance": 3
   },
   {
@@ -93,6 +99,7 @@ var experience = {
        guarantee safety and repeatability",
       "Shared findings and practices in a technical presentation"
     ],
+    "keywords": ["Matlab"],
     "importance": 6
   },
   {
@@ -105,6 +112,7 @@ var experience = {
        "Heart website and in Infinite heart seminars",
       "Synthesized several novel visualization and interaction methods"
     ],
+    "keywords": ["Java", "OpenGL"],
     "importance": 1
   },
   {
@@ -120,6 +128,7 @@ var experience = {
       "Created a SMALLab-tailored gesture recognition engine to facilitate "+
        "students&CloseCurlyQuote; use of non-standard interaction designs"
     ],
+    "keywords": ["Java", "OptiTrack"],
     "importance": 1
   }],
   "entryTemplate": genericEntryTemplate,
@@ -137,7 +146,8 @@ var projects = {
     "features": [
       "Forked and revitalized a popular open source project for improving Tumblr",
       "Triaging bugs and supporting users while adapting to Tumblr's ever-changing website"
-    ]
+    ],
+    "keywords": ["JavaScript", "Browser Extension", "Open Source"]
   },
   {
     "name": "Cabbage Legs",
@@ -147,7 +157,8 @@ var projects = {
     "importance": 8,
     "features": [
       "Programmed a genetic algorithm that optimizes simulated quadripedal robots"
-    ]
+    ],
+    "keywords": ["JavaScript", "Canvas"]
   },
   {
     "name": "Aqueduct",
@@ -157,7 +168,8 @@ var projects = {
     "importance": 6,
     "features": [
       "Implemented simple static analysis of JavaScript for type assignment"
-    ]
+    ],
+    "keywords": ["JavaScript"]
   },
   {
     "name": "Nineteen Below",
@@ -167,17 +179,19 @@ var projects = {
     "importance": 3,
     "features": [
       "Created a simple game based on procedurally generated ice block puzzles"
-    ]
+    ],
+    "keywords": ["JavaScript", "Canvas"]
   },
   {
     "name": "Haven",
     "startYear": 2013,
     "endYear": 2014,
     "moreLink": "https://github.com/hobinjk/haven/",
-    "importance": 6,
+    "importance": 7,
     "features": [
       "Designed a secure filesharing site based on client-side encryption"
-    ]
+    ],
+    "keywords": ["Go", "JavaScript", "OpenSSL", "Emscripten"]
   },
   {
     "name": "Human + Computer",
@@ -186,7 +200,8 @@ var projects = {
     "importance": 4,
     "features": [
       "Produced an interactive art project exploring transhumanism",
-    ]
+    ],
+    "keywords": ["C", "Design", "Fabrication"]
   },
   {
     "name": "Tansley Effect",
@@ -197,6 +212,7 @@ var projects = {
       "Interviewed potential customers to refine and improve business strategy and design",
       "Prepared a website on a compressed timescale for a demo day presentation"
     ],
+    "keywords": ["JavaScript", "HTML", "Communication"],
     "importance": 6
   },
   {
@@ -207,6 +223,7 @@ var projects = {
       "Fixed bugs #659576 and #570760",
       "Began creation of a global keyboard shortcuts popup (bug #492557)",
     ],
+    "keywords": ["JavaScript", "HTML", "Open Source"],
     "importance": 2
   },
   {
@@ -219,7 +236,8 @@ var projects = {
       "Collaborated with other students to build a joint web application and hardware installation",
       // "Hardware uses off-the-shelf components to determine the power-on state of any machine",
       // "Web application interfaces with the hardware to display machine usage in real-time"
-    ]
+    ],
+    "keywords": ["JavaScript", "Node", "Internet of Things"]
   },
   {
     "name": "Student Groups",
@@ -230,7 +248,8 @@ var projects = {
       "Random Hall Judiciary Committee Member (2013&ndash;2014) and Chair (2014&ndash;2015)",
       // "Secretary of the MIT Science Fiction Society"
       // "Computer Chair, Laundry King, and Webmaster for Random Hall"
-    ]
+    ],
+    "keywords": ["Leadership", "Communication", "Fundraising"]
   }
   ],
   "entryTemplate": projectsEntryTemplate,

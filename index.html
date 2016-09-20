@@ -43,6 +43,10 @@
         <h2 class="duration"><%= years.join(', ') %></h1>
       <% } %>
 
+      <% _.each(keywords, function(keyword) { %>
+        <span class="keyword"><%= keyword %></span>
+      <% }) %>
+
       <% if(typeof(moreLink) != "undefined") { %>
         <h1 class="business"><a href="<%= moreLink %>"><%= business %></a></h1>
       <% } else { %>
@@ -62,6 +66,10 @@
       <% } else if (typeof(years) !== "undefined") { %>
         <h2 class="duration"><%= years.join(', ') %></h1>
       <% } %>
+
+      <% _.each(keywords, function(keyword) { %>
+        <span class="keyword"><%= keyword %></span>
+      <% }) %>
 
       <% if(typeof(moreLink) != "undefined") { %>
         <h1 class="business"><a href="<%= moreLink %>"><%= name %></a></h1>
