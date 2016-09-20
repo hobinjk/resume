@@ -68,7 +68,7 @@ var experience = {
       //"Implementing low-latency network connections using AllJoyn and\
       //  OpenSoundControl"
       "Optimized low-latency data transfer over UDP",
-      "Second author on UBICOMP 2013 publication \"Reality Editor: Programming Smarter Objects\""
+      "2nd author on UBICOMP 2013 publication \"Reality Editor: Programming Smarter Objects\""
     ],
     "keywords": ["C++", "iOS", "Augmented Reality", "Internet of Things"],
     "importance": 8
