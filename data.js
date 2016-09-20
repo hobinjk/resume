@@ -259,7 +259,7 @@ var projects = {
 var resume = {
   "name": "James Hobin",
   "email": "hobinjk@mit.edu",
-  "address": "MIT, Cambridge, MA 02139",
+  "address": "MIT &nbsp;Cambridge, MA 02139",
   "phone": "(623) 297&ndash;8310",
   "username": "hobinjk",
   "sections": [
