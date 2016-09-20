@@ -6,6 +6,8 @@ function formatDuration(startYear, endYear, years) {
     var duration = startYear + "&ndash;";
     if (endYear) {
       duration += endYear;
+    } else {
+      duration += "Present";
     }
     return duration;
   }
