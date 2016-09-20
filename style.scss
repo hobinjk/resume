@@ -60,7 +60,7 @@ a {
   padding-left: $sidebarpad;
 }
 .name {
-  font-size: $large + 2px;
+  font-size: $large * 1.5;
   padding-bottom: 5px;
 }
 
@@ -129,7 +129,7 @@ a {
   clear: both;
   font-size: $smallish;
   padding-left: 1.25em;
-  padding-bottom: $overhang + 1em;
+  padding-bottom: $overhang + 0.75em;
   /* margin-bottom: 1em; */
 }
 

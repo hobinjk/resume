@@ -38,7 +38,7 @@ a {
   padding-left: 20px; }
 
 .name {
-  font-size: 24px;
+  font-size: 33px;
   padding-bottom: 5px; }
 
 .email {
@@ -99,7 +99,7 @@ a {
   clear: both;
   font-size: 16px;
   padding-left: 1.25em;
-  padding-bottom: 1.5em;
+  padding-bottom: 1.25em;
   /* margin-bottom: 1em; */ }
 
 .feature {
