@@ -145,7 +145,8 @@ var projects = {
     "endYear": null,
     "features": [
       "Forked and revitalized a popular open source project for improving Tumblr",
-      "Triaging bugs and supporting users while adapting to Tumblr's ever-changing website"
+      "Supporting over 400,000 users across Chrome, Firefox, and Safari"
+      // "Triaging bugs and supporting users while adapting to Tumblr's ever-changing website"
     ],
     "keywords": ["JavaScript", "Browser Extension", "Open Source"]
   },
