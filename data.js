@@ -186,7 +186,7 @@ var projects = {
   {
     "name": "Haven",
     "startYear": 2013,
-    "endYear": 2014,
+    "endYear": 2013,
     "moreLink": "https://github.com/hobinjk/haven/",
     "importance": 7,
     "features": [
