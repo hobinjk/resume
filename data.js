@@ -22,14 +22,15 @@ var experience = {
   {
     "business": "MIT Media Lab",
     "moreLink": "http://fluid.media.mit.edu/node/227",
-    "position": "Fluid Interfaces Graduate Researcher",
-    "startYear": 2016,
+    "position": "Fluid Interfaces Researcher",
+    "startYear": 2012,
     "endYear": null,
     "features": [
       "Designing adaptable, modular interfaces for the Reality Editor, a novel AR IoT platform",
-      "Assisting the maintenance and refactoring of this platform's growing codebase"
+      "Assisting the maintenance and refactoring of this platform's growing codebase",
+      "2nd author on UBICOMP 2013 publication \"Reality Editor: Programming Smarter Objects\""
     ],
-    "keywords": ["C++", "JavaScript", "Node"],
+    "keywords": ["C++", "iOS", "JavaScript", "Node"],
     "importance": 10
   },
   {
@@ -71,7 +72,7 @@ var experience = {
       "2nd author on UBICOMP 2013 publication \"Reality Editor: Programming Smarter Objects\""
     ],
     "keywords": ["C++", "iOS", "Augmented Reality", "Internet of Things"],
-    "importance": 8
+    "importance": 6
   },
   {
     "business": "iNetDispatch, LLC.",
@@ -100,7 +101,7 @@ var experience = {
       "Shared findings and practices in a technical presentation"
     ],
     "keywords": ["Matlab"],
-    "importance": 6
+    "importance": 7
   },
   {
     "business": "Infinite Heart",
