@@ -2,11 +2,10 @@ var education = {
   "name": "Education",
   "entries": [{
     "business": "Massachusetts Institute of Technology",
-    "position": "Masters of Engineering Student",
-    "startYear": 2016,
-    "endYear": null,
+    "startYear": 2012,
+    "endYear": 2017,
     "features": [
-      "EECS M.Eng student working in the Fluid Interfaces group of the Media Lab",
+      "Graduated from Media Lab with an EECS M.Eng",
       "Received Bachelor of Science in Computer Science in 2016"
     ],
     "keywords": [],
@@ -20,14 +19,30 @@ var experience = {
   "name": "Experience",
   "entries": [
   {
+    "business": "Mozilla",
+    "moreLink": "https://iot.mozilla.org/",
+    "position": "Platform Engineer, Advanced Development",
+    "startYear": 2017,
+    "endYear": null,
+    "features": [
+      "Created a comprehensive Rules Engine for automating smart home functionality in the Mozilla Project Things Gateway",
+      "Designed, implemented, and tested the Gateway's OAuth security framework",
+      "Guiding direction and scope of Web of Things API",
+      "Developing a library for any Arduino-compatible device to expose the WoT API",
+      "Advocating through a series of technical blog posts on Mozilla Hacks (90,000+ followers)"
+    ],
+    "keywords": ["JavaScript", "Node", "Linux", "Embedded Devices"],
+    "importance": 10
+  },
+  {
     "business": "MIT Media Lab",
     "moreLink": "http://fluid.media.mit.edu/node/227",
     "position": "Fluid Interfaces Researcher",
     "startYear": 2012,
-    "endYear": null,
+    "endYear": 2017,
     "features": [
-      "Designing adaptable, modular interfaces for the Reality Editor, a novel AR IoT platform",
-      "Assisting the maintenance and refactoring of this platform's growing codebase",
+      "Designed adaptable, modular interfaces for the Reality Editor, a novel AR IoT platform",
+      "Assisted the maintenance and refactoring of this platform's growing codebase",
       "2nd author on UBICOMP 2013 publication \"Reality Editor: Programming Smarter Objects\""
     ],
     "keywords": ["C++", "iOS", "JavaScript", "Node"],
@@ -156,7 +171,7 @@ var projects = {
     "startYear": 2015,
     "endYear": 2016,
     "moreLink": "https://hobinjk.github.io/nineteen-below/",
-    "importance": 7,
+    "importance": 4,
     "features": [
       "Created a simple game based on procedurally generated ice block puzzles"
     ],
@@ -167,7 +182,7 @@ var projects = {
     "startYear": 2016,
     "endYear": 2016,
     "moreLink": "https://hobinjk.github.io/in-other-words/",
-    "importance": 7,
+    "importance": 3,
     "features": [
       "Experimented with the use of politicized typing mechanics as brainwashing",
       "Refined implementation based on playtesting and design reviews"
@@ -201,7 +216,7 @@ var projects = {
     "startYear": 2014,
     "endYear": 2014,
     "moreLink": "",
-    "importance": 7,
+    "importance": 5,
     "features": [
       "Collaborated with classmates to create and improve digital games",
       "Sparkly Redemption: a top-down shooter with power-ups",
@@ -258,7 +273,7 @@ var projects = {
     "moreLink": "http://laundry.mit.edu/",
     "startYear": 2013,
     "endYear": 2016,
-    "importance": 6,
+    "importance": 7,
     "features": [
       "Collaborated with other students to build a joint web application and hardware installation",
       // "Hardware uses off-the-shelf components to determine the power-on state of any machine",
@@ -270,6 +285,7 @@ var projects = {
     "name": "Student Groups",
     "startYear": 2012,
     "endYear": 2016,
+    "importance": 6,
     "features": [
       "President of the Laboratory for Chocolate Science (2012&ndash;2016)",
       "Random Hall Judiciary Committee Member (2013&ndash;2014) and Chair (2014&ndash;2015)",
@@ -286,7 +302,7 @@ var projects = {
 var resume = {
   "name": "James Hobin",
   "email": "hobinjk@mit.edu",
-  "address": "MIT &nbsp;Cambridge, MA 02139",
+  "address": "Cambridge, MA 02139",
   "phone": "(623) 297&ndash;8310",
   "username": "hobinjk",
   "sections": [
