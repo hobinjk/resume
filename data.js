@@ -36,7 +36,7 @@ var experience = {
   },
   {
     "business": "MIT Media Lab",
-    "moreLink": "http://fluid.media.mit.edu/node/227",
+    "moreLink": "https://vimeo.com/143709971", // TODO broken link: http://fluid.media.mit.edu/node/227",
     "position": "Fluid Interfaces Researcher",
     "startYear": 2012,
     "endYear": 2017,
@@ -50,7 +50,7 @@ var experience = {
   },
   {
     "business": "CSAIL Distributed Robotics Laboratory",
-    "moreLink": "http://groups.csail.mit.edu/drl/wiki/index.php?title=Main_Page",
+    "moreLink": "https://groups.csail.mit.edu/drl/wiki/index.php?title=Main_Page",
     "position": "Undergraduate Researcher",
     "startYear": 2015,
     "endYear": 2016,
@@ -75,7 +75,7 @@ var experience = {
   },
   {
     "business": "MIT Media Lab",
-    "moreLink": "http://fluid.media.mit.edu/node/227",
+    "moreLink": "https://vimeo.com/143709971",
     "position": "Fluid Interfaces Undergraduate Researcher",
     "startYear": 2012,
     "endYear": 2014,
