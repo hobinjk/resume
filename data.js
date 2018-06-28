@@ -101,7 +101,7 @@ var experience = {
       "Shared findings and practices in a technical presentation"
     ],
     "keywords": ["Matlab"],
-    "importance": 7
+    "importance": 5
   },
   {
     "business": "Infinite Heart",
@@ -152,6 +152,29 @@ var projects = {
     "keywords": ["JavaScript", "Browser Extension", "Open Source"]
   },
   {
+    "name": "Nineteen Below",
+    "startYear": 2015,
+    "endYear": 2016,
+    "moreLink": "https://hobinjk.github.io/nineteen-below/",
+    "importance": 7,
+    "features": [
+      "Created a simple game based on procedurally generated ice block puzzles"
+    ],
+    "keywords": ["JavaScript", "Canvas"]
+  },
+  {
+    "name": "In Other Words",
+    "startYear": 2016,
+    "endYear": 2016,
+    "moreLink": "https://hobinjk.github.io/in-other-words/",
+    "importance": 7,
+    "features": [
+      "Experimented with the use of politicized typing mechanics as brainwashing",
+      "Refined implementation based on playtesting and design reviews"
+    ],
+    "keywords": ["JavaScript", "Canvas"]
+  },
+  {
     "name": "Cabbage Legs",
     "startYear": 2015,
     "endYear": 2015,
@@ -174,13 +197,15 @@ var projects = {
     "keywords": ["JavaScript"]
   },
   {
-    "name": "Nineteen Below",
-    "startYear": 2015,
-    "endYear": 2016,
-    "moreLink": "https://hobinjk.github.io/nineteen-below/",
-    "importance": 3,
+    "name": "CMS.611 Games",
+    "startYear": 2014,
+    "endYear": 2014,
+    "moreLink": "",
+    "importance": 7,
     "features": [
-      "Created a simple game based on procedurally generated ice block puzzles"
+      "Collaborated with classmates to create and improve digital games",
+      "Sparkly Redemption: a top-down shooter with power-ups",
+      "Saving Gora Gora: a series of mini-games educating about cholera prevention"
     ],
     "keywords": ["JavaScript", "Canvas"]
   },
@@ -189,7 +214,7 @@ var projects = {
     "startYear": 2013,
     "endYear": 2013,
     "moreLink": "https://github.com/hobinjk/haven/",
-    "importance": 7,
+    "importance": 6,
     "features": [
       "Designed a secure filesharing site based on client-side encryption"
     ],
