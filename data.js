@@ -19,17 +19,30 @@ var experience = {
   "name": "Experience",
   "entries": [
   {
+    "business": "PTC Inc.",
+    "moreLink": "https://www.ptc.com/en/about/reality-lab",
+    "position": "Senior Innovation Engineer",
+    "startYear": 2019,
+    "endYear": null,
+    "features": [
+      "Introducing automated testing to increase development speed on the Reality Editor project",
+      "Designing and prototyping new AR and IoT experiences",
+    ],
+    "keywords": ["JavaScript", "Augmented Reality", "Industrial IoT"],
+    "importance": 10
+  },
+  {
     "business": "Mozilla",
     "moreLink": "https://iot.mozilla.org/",
     "position": "Platform Engineer, Advanced Development",
     "startYear": 2017,
-    "endYear": null,
+    "endYear": 2019,
     "features": [
-      "Created a comprehensive Rules Engine for automating smart home functionality in the Mozilla Project Things Gateway",
-      "Designed, implemented, and tested the Gateway's OAuth security framework",
-      "Guiding direction and scope of Web of Things API",
-      "Developing a library for any Arduino-compatible device to expose the WoT API",
-      "Advocating through a series of technical blog posts on Mozilla Hacks (90,000+ followers)"
+      "Created a comprehensive rules engine for automating smart home functionality",
+      "Designed, implemented, and tested the Mozilla IoT Gateway's OAuth security framework",
+      "Developed a library for any Arduino-compatible device to expose the WoT API",
+      "Created and deployed a skill for Mycroft voice assistants to control the Gateway",
+      "Wrote a series of technical blog posts for Mozilla Hacks (90,000+ followers)"
     ],
     "keywords": ["JavaScript", "Node", "Linux", "Embedded Devices"],
     "importance": 10
