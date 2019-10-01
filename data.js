@@ -58,7 +58,7 @@ var experience = {
       "Built an online game for crowdsourcing the design of robots"
     ],
     "keywords": ["JavaScript", "React", "Node"],
-    "importance": 9
+    "importance": 2
   },
   {
     "business": "Mozilla",
@@ -196,7 +196,8 @@ var projects = {
     "moreLink": "https://hobinjk.github.io/cabbage-legs/",
     "importance": 8,
     "features": [
-      "Programmed a genetic algorithm that optimizes simulated quadripedal robots"
+      "Programmed a genetic algorithm that optimizes simulated quadripedal robots",
+      "Extended into an online game for crowdsourcing the design of robots as undergraduate researcher at CSAIL's Distributed Robotics Laboratory",
     ],
     "keywords": ["JavaScript", "Canvas"]
   },
