@@ -6,7 +6,7 @@ var education = {
     "startYear": 2012,
     "endYear": 2017,
     "features": [
-      "Graduated from Media Lab with an EECS M.Eng",
+      "Graduated from the Media Lab with an EECS M.Eng",
       "Received Bachelor of Science in Computer Science in 2016"
     ],
     "keywords": [],
