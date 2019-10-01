@@ -2,6 +2,7 @@ var education = {
   "name": "Education",
   "entries": [{
     "business": "Massachusetts Institute of Technology",
+    "moreLink": "https://dspace.mit.edu/handle/1721.1/113151",
     "startYear": 2012,
     "endYear": 2017,
     "features": [
