@@ -15,10 +15,13 @@ function formatDuration(startYear, endYear, years) {
 }
 
 function formatFeature(feature) {
-  // linkify bugzilla bugs
+  // linkify bugzilla bugs and us patents
   return feature.replace(
     /#(\d{5,7})/g,
     '<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=$1">#$1</a>'
+  ).replace(
+    /US([0-9B]+)/g,
+    '<a href="https://patents.google.com/patent/US$1/en">US$1</a>'
   );
 }
 

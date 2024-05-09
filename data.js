@@ -22,14 +22,17 @@ var experience = {
   {
     "business": "PTC Inc.",
     "moreLink": "https://www.ptc.com/en/about/reality-lab",
-    "position": "Senior Innovation Engineer",
+    "position": "Senior Principal Innovation Engineer",
     "startYear": 2019,
     "endYear": null,
     "features": [
-      "Introducing automated testing to increase development speed on the Reality Editor project",
-      "Designing and prototyping new AR and IoT experiences",
+      "Granted patents US11776205B2 and US11625140B2 for original research",
+      "Created and developing a novel cloud-based hosting solution for contextualized XR content",
+      "Invented real-time depth-streaming protocol along with viewer, streamer, and recorder",
+      "Designing and prototyping new experiences across AR, AI, and IoT",
+      "Leading developer tooling efforts across all Reality Lab projects",
     ],
-    "keywords": ["JavaScript", "Augmented Reality", "Industrial IoT"],
+    "keywords": ["JavaScript", "Augmented Reality", "Industrial IoT", "Cloud Systems Engineering"],
     "importance": 10
   },
   {
@@ -172,7 +175,7 @@ var projects = {
     "name": "New XKit",
     "moreLink": "https://github.com/new-xkit/XKit/",
     "startYear": 2015,
-    "endYear": null,
+    "endYear": 2019,
     "features": [
       "Forked and revitalized a popular open source project for improving Tumblr",
       "Supporting over 400,000 users across Chrome, Firefox, and Safari"
@@ -316,7 +319,7 @@ var projects = {
 
 var resume = {
   "name": "James Hobin",
-  "email": "hobinjk@mit.edu",
+  "email": "hobinjk@gmail.com",
   "address": "Cambridge, MA 02139",
   "phone": "(623) 297&ndash;8310",
   "username": "hobinjk",
