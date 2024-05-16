@@ -33,7 +33,7 @@ var experience = {
       "Leading developer tooling efforts across all Reality Lab projects",
       "2nd author on CHI 2024 publication \"The Pop-Up Metaverse: A Multi-User, Multi-Tasking Spatial Computing Environment for Collaborative Spatial Problem-Solving.\"",
     ],
-    "keywords": ["JavaScript", "Augmented Reality", "Industrial IoT", "Cloud Systems Engineering"],
+    "keywords": ["Augmented Reality", "Industrial IoT", "Artificial Intelligence", "Cloud Systems Engineering"],
     "importance": 10
   },
   {
