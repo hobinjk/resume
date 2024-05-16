@@ -6,8 +6,8 @@ var education = {
     "startYear": 2012,
     "endYear": 2017,
     "features": [
-      "Graduated from the Media Lab with an EECS M.Eng",
-      "Received Bachelor of Science in Computer Science in 2016"
+      "Obtained Master of Engineering in Computer Science from the MIT Media Lab in 2017",
+      "Obtained Bachelor of Science in Computer Science in 2016"
     ],
     "keywords": [],
     "importance": 10
