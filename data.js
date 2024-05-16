@@ -31,6 +31,7 @@ var experience = {
       "Invented real-time depth-streaming protocol along with viewer, streamer, and recorder",
       "Designing and prototyping new experiences across AR, AI, and IoT",
       "Leading developer tooling efforts across all Reality Lab projects",
+      "2nd author on CHI 2024 publication \"The Pop-Up Metaverse: A Multi-User, Multi-Tasking Spatial Computing Environment for Collaborative Spatial Problem-Solving.\"",
     ],
     "keywords": ["JavaScript", "Augmented Reality", "Industrial IoT", "Cloud Systems Engineering"],
     "importance": 10
