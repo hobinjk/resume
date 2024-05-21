@@ -179,7 +179,7 @@ var projects = {
     "endYear": 2019,
     "features": [
       "Forked and revitalized a popular open source project for improving Tumblr",
-      "Supporting over 400,000 users across Chrome, Firefox, and Safari"
+      "Supported over 400,000 users across Chrome, Firefox, and Safari"
       // "Triaging bugs and supporting users while adapting to Tumblr's ever-changing website"
     ],
     "keywords": ["JavaScript", "Browser Extension", "Open Source"]
@@ -217,7 +217,7 @@ var projects = {
       "Programmed a genetic algorithm that optimizes simulated quadripedal robots",
       "Extended into an online game for crowdsourcing the design of robots as undergraduate researcher at CSAIL's Distributed Robotics Laboratory",
     ],
-    "keywords": ["JavaScript", "Canvas"]
+    "keywords": ["JavaScript", "Machine Learning", "Canvas"]
   },
   {
     "name": "Aqueduct",
@@ -292,7 +292,7 @@ var projects = {
     "moreLink": "http://laundry.mit.edu/",
     "startYear": 2013,
     "endYear": 2016,
-    "importance": 7,
+    "importance": 4,
     "features": [
       "Collaborated with other students to build a joint web application and hardware installation",
       // "Hardware uses off-the-shelf components to determine the power-on state of any machine",
