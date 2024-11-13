@@ -24,14 +24,14 @@ var experience = {
       "moreLink": "https://www.ptc.com/en/about/reality-lab",
       "position": "Senior Principal Innovation Engineer",
       "startYear": 2019,
-      "endYear": null,
+      "endYear": 2024,
       "features": [
-        "Developing a cloud-based hosting solution for multi-user contextualized XR experiences",
-        "Invented real-time depth-streaming protocol with peer-to-peer connections and storage format",
-        "Designing and prototyping new experiences across AR, AI, and IoT",
-        "Leading testing and developer tooling efforts across all Reality Lab projects",
+        "Created a machine-learning-enabled tool which cuts the time for factory work analysis by 80%",
+        "Developed a container-based cloud host for real-time multi-user contextual XR experiences",
+        "Invented depth streaming protocol with peer-to-peer connections and storage format",
+        "Led testing and developer tooling efforts across all Reality Lab projects",
         "Granted two patents for original research (US11776205B2, US11625140B2)",
-        "2nd author on CHI 2024 publication \"The Pop-Up Metaverse: A Multi-User, Multi-Tasking Spatial Computing Environment for Collaborative Spatial Problem-Solving.\"",
+        "2nd author on CHI 2024 publication \"The Pop-Up Metaverse: A Multi-User, Multi-Tasking Spatial Computing Environment for Collaborative Spatial Problem-Solving\"",
       ],
       "keywords": [
         "Distributed Systems Engineering",
@@ -179,33 +179,34 @@ var projects = {
   "name": "Projects",
   "entries": [
     {
-      "name": "Game Development",
-      "moreLink": "https://hobinjk.github.io/portfolio",
-      "startYear": 2010,
-      "endYear": null,
-      "features": [
-        "[Portfolio: https://hobinjk.github.io/portfolio](https://hobinjk.github.io/portfolio)",
-        "[League of Lines](https://hobinjk.github.io/league-of-lines/): Voice-line-based online competitive card game",
-        // "Moxie: Coach for Guild Wars 2 (GW2) PvE",
-        "[The Dragonfruitvoid](https://hobinjk.github.io/dragonfruitvoid/): 2D simulator of Guild Wars 2's most complex raid",
-        "[Discretize Gear Optimizer](https://optimizer.discretize.eu/?m=raids): Part of team building optimizer for Guild Wars 2 gear sets",
-        "Upton Manor: Co-wrote and co-ran one-day live-action roleplaying game",
-        // "Cabbage Legs: Idle quadripedal robot optimization",
-        // "Comic Sans: Co-wrote ten-day live-action roleplaying game",
-      ],
-      "keywords": ["JavaScript", "C++", "Rust", "Writing", "Open Source"]
-    },
-    {
       "name": "New XKit",
       "moreLink": "https://github.com/new-xkit/XKit/",
       "startYear": 2015,
       "endYear": 2019,
+      "importance": 10,
       "features": [
         "Forked and revitalized a popular open source project for improving Tumblr",
         "Supported over 400,000 users across Chrome, Firefox, and Safari"
         // "Triaging bugs and supporting users while adapting to Tumblr's ever-changing website"
       ],
       "keywords": ["JavaScript", "Browser Extension", "Open Source"]
+    },
+    {
+      "name": "Art and Games",
+      "moreLink": "https://hobinjk.github.io/portfolio",
+      "startYear": 2010,
+      "endYear": null,
+      "features": [
+        "[League of Lines](https://hobinjk.github.io/league-of-lines/): Voice-line-based online competitive card game",
+        "[Full portfolio: https://hobinjk.github.io/portfolio](https://hobinjk.github.io/portfolio)",
+        // "[Discretize Gear Optimizer](https://optimizer.discretize.eu/?m=raids): Part of team building optimizer for Guild Wars 2 gear sets",
+        // "Moxie: Coach for Guild Wars 2",
+        // "[The Dragonfruitvoid](https://hobinjk.github.io/dragonfruitvoid/): 2D simulator of Guild Wars 2's most complex raid",
+        // "Upton Manor: Co-wrote and co-ran one-day live-action roleplaying game",
+        // "Cabbage Legs: Idle quadripedal robot optimization",
+        // "Comic Sans: Co-wrote ten-day live-action roleplaying game",
+      ],
+      "keywords": ["JavaScript", "C++", "Rust", "Writing", "WebGL"]
     },
     {
       "name": "Nineteen Below",
@@ -235,7 +236,7 @@ var projects = {
       "startYear": 2015,
       "endYear": 2015,
       "moreLink": "https://hobinjk.github.io/cabbage-legs/",
-      "importance": 2,
+      "importance": 9,
       "features": [
         "Programmed a genetic algorithm that optimizes simulated quadripedal robots",
         "Extended into an online game for crowdsourcing the design of robots as undergraduate researcher at CSAIL's Distributed Robotics Laboratory",
